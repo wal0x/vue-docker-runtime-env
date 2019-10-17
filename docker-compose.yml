@@ -1,0 +1,8 @@
+version: "3.2"
+services:
+  testruntime:
+    image: test/runtime
+    ports:
+      - "80:80"
+    environment:
+      - "API_URL=production.example.com"
